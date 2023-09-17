@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+  }
+
+  div {
+    margin: 5px;
+    /* border: 2px solid black; */
+  }
+
+  /* style the header */
+  .header,
+  .navMenu,
+  .footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    margin: 0px;
+  }
+
+  .mainContent {
+    background-color: #f1f1f1;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subContent {
+    background-color: #f1f1f1;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
